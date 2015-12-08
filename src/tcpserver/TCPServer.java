@@ -61,9 +61,10 @@ public static int id;
                     String prueba = eElement.getElementsByTagName("stringconsulta").item(0).getTextContent();
                     System.out.println("la consulta es: " +consulta);
                     System.out.println("prueba: " + prueba);
-            //aca no está entrando :c                             
+                                        
                     if(consultar.equals(prueba)){
                         System.out.println("lo encontre!");
+                       // aumentarVisita();
                         NodeList nlist2 = eElement.getElementsByTagName("respuesta");
                         //return resultado;
                         ArrayList<String> listaResultado = new ArrayList<>();
@@ -146,8 +147,6 @@ public static int id;
         return aux;
     }
 
-   
-    
     public static void main(String[] args) throws Exception{
         //Variables
         String fromClient;
@@ -183,7 +182,6 @@ public static int id;
             String ConsultaLista = new StringBuffer(resultado).toString() + '\n';
             System.out.println("esta es la consulta final: " +ConsultaLista); //lista para buscar el resultado en caché
             //consulta = ConsultaLista; //actualizo variable global
-            String aux;
             
             File f = new File(direccion);
             if(f.exists()){ //si existe
