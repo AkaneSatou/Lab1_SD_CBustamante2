@@ -7,10 +7,11 @@ package tcpserver;
 
 import java.io.*;
 import java.net.*;
+import java.util.ArrayList;
 
 /**
  *
- * @author luis
+ * @author clau
  */
 public class TCPClient {
     
@@ -29,15 +30,28 @@ public class TCPClient {
         DataOutputStream outToServer = new DataOutputStream(clientSocket.getOutputStream());
         
         //Buffer para recibir dato del servidor
-        BufferedReader inFromServer = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+        //  BufferedReader inFromServer = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
         
         //Leemos del cliente y lo mandamos al servidor
         sentence = inFromUser.readLine();
         outToServer.writeBytes(sentence + '\n');
         
         //Recibimos del servidor
-        fromServer = inFromServer.readLine();
-        System.out.println("Server response: " + fromServer);
+        ObjectInputStream objectInput = new ObjectInputStream(clientSocket.getInputStream());
+        Object object = objectInput.readObject();
+        if(object != null)
+        {
+            ArrayList<String> resultado = (ArrayList<String>) object;
+            for (String resultado1 : resultado) {
+                System.out.println(resultado1);
+            }
+        }
+        else
+        {
+            System.out.println("Miss :C");
+        }
+//fromServer = inFromServer.readLine();
+        //System.out.println("Server response: " + fromServer);
         
         //Cerramos el socket
         clientSocket.close();

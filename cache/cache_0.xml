@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<cache>
+	<consulta>
+		<stringconsulta>hola</stringconsulta>
+		<cantidadvecesconsultado>1</cantidadvecesconsultado>
+		<fechaingreso></fechaingreso>
+		<respuesta>
+			<stringrespuesta>casa de color rosado</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>casa azul</stringrespuesta>
+		</respuesta>
+	</consulta>
+</cache>
