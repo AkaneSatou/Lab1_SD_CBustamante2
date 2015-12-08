@@ -1,28 +1,28 @@
 <?xml version="1.0"?>
 <cache>
 	<consulta>
-		<stringconsulta>consulta1</stringconsulta>
+		<stringconsulta>hola</stringconsulta>
 		<cantidadvecesconsultado>1</cantidadvecesconsultado>
 		<fechaingreso></fechaingreso>
 		<respuesta>
-			<stringrespuesta>STRING1 a String2</stringrespuesta>
+			<stringrespuesta>casa de color rosado</stringrespuesta>
 		</respuesta>
 		<respuesta>
-			<stringrespuesta>STRING2 ante String3</stringrespuesta>
+			<stringrespuesta>casa azul</stringrespuesta>
 		</respuesta>
 	</consulta>
 	<consulta>
-		<stringconsulta>consulta2</stringconsulta>
+		<stringconsulta>auto</stringconsulta>
 		<cantidadvecesconsultado>2</cantidadvecesconsultado>
 		<fechaingreso></fechaingreso>
 		<respuesta>
-			<stringrespuesta>STRING1 bajo String2</stringrespuesta>
+			<stringrespuesta>auto hidraulico</stringrespuesta>
 		</respuesta>
 		<respuesta>
-			<stringrespuesta>STRING2 con String3</stringrespuesta>
+			<stringrespuesta>auto chocado</stringrespuesta>
 		</respuesta>
 		<respuesta>
-			<stringrespuesta>STRING3 contra String1</stringrespuesta>
+			<stringrespuesta>auto rosado</stringrespuesta>
 		</respuesta>
 	</consulta>
 </cache>
