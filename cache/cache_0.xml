@@ -1,9 +1,8 @@
-<?xml version="1.0"?>
-<cache>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cache>
 	<consulta>
 		<stringconsulta>hola</stringconsulta>
-		<cantidadvecesconsultado>1</cantidadvecesconsultado>
-		<fechaingreso></fechaingreso>
+		<cantidadvecesconsultado>3</cantidadvecesconsultado>
+		<fechaingreso/>
 		<respuesta>
 			<stringrespuesta>casa de color rosado</stringrespuesta>
 		</respuesta>

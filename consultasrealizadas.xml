@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><consultas>
+	<consulta>
+		<string>hola</string>
+		<cantidad>2</cantidad>
+	</consulta>
+	<consulta>
+		<string>auto</string>
+		<cantidad>1</cantidad>
+	</consulta>
+<consulta><string>asd</string><cantidad>2</cantidad></consulta></consultas>
