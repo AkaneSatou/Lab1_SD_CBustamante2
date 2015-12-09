@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cache>
+	<consulta>
+		<stringconsulta>arbol</stringconsulta>
+		<cantidadvecesconsultado>2</cantidadvecesconsultado>
+		<respuesta>
+			<stringrespuesta>arbol binario</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>arbol frutal</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>arbol en el bosque</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>arbol seco</stringrespuesta>
+		</respuesta>
+	</consulta>
+	<consulta>
+		<stringconsulta>bonito</stringconsulta>
+		<cantidadvecesconsultado>1</cantidadvecesconsultado>
+		<respuesta>
+			<stringrespuesta>bonito nombre</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>bonito sol</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>bonito verano</stringrespuesta>
+		</respuesta>
+	</consulta>
+	<consulta>
+		<stringconsulta>elefante</stringconsulta>
+		<cantidadvecesconsultado>2</cantidadvecesconsultado>
+		<respuesta>
+			<stringrespuesta>elefante se balanceaba</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>elefante volador</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>elefante rosado</stringrespuesta>
+		</respuesta>
+	</consulta>
+</cache>

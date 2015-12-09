@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cache>
+	<consulta>
+		<stringconsulta>fracaso</stringconsulta>
+		<cantidadvecesconsultado>2</cantidadvecesconsultado>
+		<respuesta>
+			<stringrespuesta>perdedor</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>loser</stringrespuesta>
+		</respuesta>
+	</consulta>
+	<consulta>
+		<stringconsulta>mano</stringconsulta>
+		<cantidadvecesconsultado>1</cantidadvecesconsultado>
+		<respuesta>
+			<stringrespuesta>guante</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>mano con yeso</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>mano grande</stringrespuesta>
+		</respuesta>
+	</consulta>
+	<consulta>
+		<stringconsulta>oreja</stringconsulta>
+		<cantidadvecesconsultado>1</cantidadvecesconsultado>
+		<respuesta>
+			<stringrespuesta>orejon</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>aro</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>piercing</stringrespuesta>
+		</respuesta>
+	</consulta>
+</cache>

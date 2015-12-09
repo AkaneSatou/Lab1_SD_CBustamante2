@@ -7,4 +7,6 @@
 		<string>auto</string>
 		<cantidad>1</cantidad>
 	</consulta>
-<consulta><string>asd</string><cantidad>2</cantidad></consulta></consultas>
+<consulta><string>asd</string><cantidad>5</cantidad></consulta>
+<consulta><string>arbol</string><cantidad>1</cantidad></consulta>
+<consulta><string>elefante</string><cantidad>1</cantidad></consulta></consultas>

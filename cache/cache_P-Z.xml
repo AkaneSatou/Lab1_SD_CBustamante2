@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cache>
+	<consulta>
+		<stringconsulta>pato</stringconsulta>
+		<cantidadvecesconsultado>1</cantidadvecesconsultado>
+		<respuesta>
+			<stringrespuesta>pato feo</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>pato lindo</stringrespuesta>
+		</respuesta>
+	</consulta>
+	<consulta>
+		<stringconsulta>yeta</stringconsulta>
+		<cantidadvecesconsultado>1</cantidadvecesconsultado>
+		<respuesta>
+			<stringrespuesta>mala suerte</stringrespuesta>
+		</respuesta>
+	</consulta>
+	<consulta>
+		<stringconsulta>zapato</stringconsulta>
+		<cantidadvecesconsultado>1</cantidadvecesconsultado>
+		<respuesta>
+			<stringrespuesta>calzado</stringrespuesta>
+		</respuesta>
+		<respuesta>
+			<stringrespuesta>sandalia</stringrespuesta>
+		</respuesta>
+	</consulta>
+</cache>
